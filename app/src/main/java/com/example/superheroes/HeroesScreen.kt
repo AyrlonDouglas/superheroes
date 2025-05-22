@@ -103,7 +103,6 @@ fun HeroesList(modifier: Modifier = Modifier) {
         modifier = modifier
     ) {
         LazyColumn(
-            modifier = modifier,
             contentPadding = PaddingValues(vertical = 8.dp, horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
